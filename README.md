@@ -1,27 +1,44 @@
-# 🚀 ERP Integral para PYMEs (QwenTuty)
+# ANTIGRAVITY: Robot Boss Academy
 
-Sistema ERP moderno, modular y escalable diseñado para potenciar a pequeñas y medianas empresas a través de una arquitectura de microservicios.
+An interactive educational video game designed to teach 12-year-old beginners how to use the Antigravity platform.
 
-## 📁 Estructura del Proyecto
+## 🚀 Project Overview
+- **Target Audience:** 12-year-old beginners (Spanish).
+- **Goal:** Complete 12 missions to become a "Certified Junior Robot Boss".
+- **Tech Stack:** React, Phaser 3, Zustand, Tailwind CSS.
 
-- `docs/`: Documentación funcional y técnica.
-- `infra/`: Scripts de Infraestructura como Código (IaC).
-- `src/`: Código fuente de los microservicios (core, finance, etc.).
-- `specs/`: Especificaciones de la API (OpenAPI).
-- `diagrams/`: Diagramas de arquitectura (PlantUML).
-- `ci-cd/`: Pipelines de Integración y Despliegue Continuo.
+## 📚 Documentation
+Detailed documentation is available in the `docs/` folder:
+- [Game Design Document (GDD)](docs/GDD.md)
+- [Technical Architecture](docs/ARCHITECTURE.md)
+- [Mission Specifications](docs/MISSION_SPECS.md)
+- [UI/UX Wireframes](docs/WIREFRAMES.md)
+- [QA Checklist](docs/QA_CHECKLIST.md)
+- [Launch Strategy](docs/LAUNCH_STRATEGY.md)
 
-## 🚀 Despliegue Local
+## 🛠️ Setup & Installation
 
-1.  **Asegúrate de tener Docker y Docker Compose instalados.**
-2.  **Clona el repositorio.**
-3.  **Levanta todo el entorno con un solo comando:**
-    ```bash
-    docker-compose up --build
-    ```
+1. **Install Dependencies:**
+   ```bash
+   npm install
+   ```
 
-## ⚙️ Pipeline CI/CD
+2. **Run Development Server:**
+   ```bash
+   npm run dev
+   ```
 
-El repositorio está configurado con un pipeline de GitHub Actions que automáticamente:
-- Ejecuta tests y linting para los microservicios modificados.
-- Construye y publica imágenes Docker en Docker Hub en cada push a `main`.
+3. **Build for Production:**
+   ```bash
+   npm run build
+   ```
+
+## 🎮 Game Structure
+- **src/components**: React UI components (Terminal, HUD).
+- **src/game**: Phaser 3 game logic and scenes.
+- **src/stores**: State management (Zustand).
+
+## 🌟 Key Features
+- **Interactive Terminal:** Simulates coding commands.
+- **Visual Feedback:** Animated robots and space theme.
+- **Progression:** XP, Levels, and Badge collection.
