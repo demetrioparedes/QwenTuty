@@ -2,6 +2,8 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { useGameStore } from '../stores/useGameStore';
 import Mission1View from './missions/Mission1View';
+import Mission2View from './missions/Mission2View';
+import Mission3View from './missions/Mission3View';
 
 const MissionView = () => {
   const { currentMissionId } = useGameStore();
@@ -12,7 +14,9 @@ const MissionView = () => {
       case 'mission-1':
         return <Mission1View />;
       case 'mission-2':
-        return <div className="text-white text-center p-10">{t('ui.coming_soon')}</div>;
+        return <Mission2View />;
+      case 'mission-3':
+        return <Mission3View />;
       default:
         return <div className="text-white text-center p-10">{t('ui.select_mission')}</div>;
     }

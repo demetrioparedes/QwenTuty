@@ -31,6 +31,14 @@
     "m1": {
       "step1": "Haz clic en el botón 'Instalar' para descargar Antigravity.",
       "step2": "Haz clic en 'Abrir' para iniciar tu aventura."
+    },
+    "m2": {
+      "step1": "Haz clic en 'Nuevo Espacio de Trabajo' para comenzar.",
+      "step2": "Escribe un nombre para tu proyecto (ej. 'BaseMarte') y haz clic en 'Crear'."
+    },
+    "m3": {
+      "step1": "Ve a la pestaña de 'Ajustes'.",
+      "step2": "Selecciona el modo 'Asistido por Agente' y guarda los cambios."
     }
   },
   "ui": {
@@ -41,6 +49,21 @@
     "mission_completed": "¡Misión Completada!",
     "simulator_title": "Simulador Antigravity",
     "select_mission": "Selecciona una Misión",
-    "coming_soon": "Próximamente"
+    "coming_soon": "Próximamente",
+    "new_workspace": "Nuevo Espacio de Trabajo",
+    "workspace_name": "Nombre del Espacio de Trabajo",
+    "create": "Crear",
+    "cancel": "Cancelar",
+    "my_workspaces": "Mis Proyectos",
+    "next_mission": "Siguiente Misión",
+    "agent_mode": "Modo de Agente",
+    "mode_manual": "Manual",
+    "mode_assisted": "Asistido",
+    "mode_auto": "Automático",
+    "save_settings": "Guardar Ajustes",
+    "settings_saved": "Ajustes Guardados",
+    "desc_manual": "Tú escribes todo el código.",
+    "desc_assisted": "La IA sugiere y tú apruebas.",
+    "desc_auto": "La IA escribe código autónomamente."
   }
 }

@@ -30,16 +30,46 @@ export const MISSIONS = {
     descKey: 'missions.m2.desc',
     badgeId: 'organizer',
     xpReward: 75,
-    steps: [] // To be defined
+    steps: [
+      {
+        id: 'new_workspace',
+        instructionKey: 'steps.m2.step1', // "Click New Workspace"
+        type: 'interaction',
+        targetId: 'new-workspace-btn',
+        trigger: 'click'
+      },
+      {
+        id: 'enter_name',
+        instructionKey: 'steps.m2.step2', // "Enter name and create"
+        type: 'form',
+        targetId: 'create-btn',
+        trigger: 'submit'
+      }
+    ]
   },
   'mission-3': {
     id: 'mission-3',
     level: 1,
-    titleKey: 'missions.m3.title', // Need to add to translation
+    titleKey: 'missions.m3.title',
     descKey: 'missions.m3.desc',
     badgeId: 'guardian',
     xpReward: 75,
-    steps: []
+    steps: [
+      {
+        id: 'open_settings',
+        instructionKey: 'steps.m3.step1', // "Go to Settings"
+        type: 'interaction',
+        targetId: 'settings-tab',
+        trigger: 'click'
+      },
+      {
+        id: 'select_mode',
+        instructionKey: 'steps.m3.step2', // "Select Assisted Mode"
+        type: 'form',
+        targetId: 'save-settings',
+        trigger: 'click'
+      }
+    ]
   }
 };
 

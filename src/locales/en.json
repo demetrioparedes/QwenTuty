@@ -31,6 +31,14 @@
     "m1": {
       "step1": "Click the 'Install' button to download Antigravity.",
       "step2": "Click 'Open' to start your adventure."
+    },
+    "m2": {
+      "step1": "Click 'New Workspace' to start.",
+      "step2": "Type a project name (e.g. 'MarsBase') and click 'Create'."
+    },
+    "m3": {
+      "step1": "Go to the 'Settings' tab.",
+      "step2": "Select 'Assisted' mode and save changes."
     }
   },
   "ui": {
@@ -41,6 +49,21 @@
     "mission_completed": "Mission Completed!",
     "simulator_title": "Antigravity Simulator",
     "select_mission": "Select a Mission",
-    "coming_soon": "Coming Soon"
+    "coming_soon": "Coming Soon",
+    "new_workspace": "New Workspace",
+    "workspace_name": "Workspace Name",
+    "create": "Create",
+    "cancel": "Cancel",
+    "my_workspaces": "My Projects",
+    "next_mission": "Next Mission",
+    "agent_mode": "Agent Mode",
+    "mode_manual": "Manual",
+    "mode_assisted": "Assisted",
+    "mode_auto": "Automatic",
+    "save_settings": "Save Settings",
+    "settings_saved": "Settings Saved",
+    "desc_manual": "You write all the code.",
+    "desc_assisted": "AI suggests and you approve.",
+    "desc_auto": "AI writes code autonomously."
   }
 }

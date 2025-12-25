@@ -4,7 +4,7 @@ import MissionView from './components/MissionView';
 import { useGameStore } from './stores/useGameStore';
 
 function App() {
-  const { user, currentMissionId, missionStatus, getCurrentStep } = useGameStore();
+  const { user, currentMissionId, missionStatus, getCurrentStep, startNextMission } = useGameStore();
   const { t, i18n } = useTranslation();
 
   const toggleLanguage = () => {
@@ -78,9 +78,19 @@ function App() {
           </div>
 
           <div className="space-y-4">
-            <button className="w-full bg-primary hover:bg-purple-600 text-white font-bold py-3 px-4 rounded transition-colors shadow-lg shadow-purple-500/20">
-              {t('menu.start_mission')}
-            </button>
+            {missionStatus === 'completed' ? (
+                <button
+                    onClick={startNextMission}
+                    className="w-full bg-green-600 hover:bg-green-500 text-white font-bold py-3 px-4 rounded transition-colors shadow-lg shadow-green-500/20 animate-pulse"
+                >
+                    {t('ui.next_mission')} →
+                </button>
+            ) : (
+                <button className="w-full bg-primary hover:bg-purple-600 text-white font-bold py-3 px-4 rounded transition-colors shadow-lg shadow-purple-500/20">
+                    {t('menu.start_mission')}
+                </button>
+            )}
+
             <button className="w-full bg-gray-700 hover:bg-gray-600 text-white font-bold py-3 px-4 rounded transition-colors">
               {t('menu.access_terminal')}
             </button>
