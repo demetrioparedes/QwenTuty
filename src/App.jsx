@@ -53,10 +53,10 @@ function App() {
           <div className="bg-black/50 p-4 rounded-lg border border-gray-700 mb-4">
             <h3 className="text-primary font-bold mb-2">{t('menu.current_objective')}:</h3>
             <p className="text-white font-bold text-sm">
-                {t(`missions.m1.title`)}
+                {t(`missions.${currentMissionId.replace('mission-', 'm')}.title`)}
             </p>
             <p className="text-gray-400 text-xs mt-1 mb-4">
-                {t(`missions.m1.desc`)}
+                {t(`missions.${currentMissionId.replace('mission-', 'm')}.desc`)}
             </p>
 
             {/* Dynamic Step Instruction */}

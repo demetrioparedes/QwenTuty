@@ -70,6 +70,65 @@ export const MISSIONS = {
         trigger: 'click'
       }
     ]
+  },
+  'mission-4': {
+    id: 'mission-4',
+    level: 2,
+    titleKey: 'missions.m4.title',
+    descKey: 'missions.m4.desc',
+    badgeId: 'navigator',
+    xpReward: 100,
+    steps: [
+      {
+        id: 'visit_url',
+        instructionKey: 'steps.m4.step1', // "Type visit google.com"
+        type: 'terminal',
+        targetId: 'terminal-input',
+        trigger: 'command',
+        expectedCommand: /visita?r?\s+google\.com/i // Regex for flexibility
+      }
+    ]
+  },
+  'mission-5': {
+    id: 'mission-5',
+    level: 2,
+    titleKey: 'missions.m5.title',
+    descKey: 'missions.m5.desc',
+    badgeId: 'detective',
+    xpReward: 100,
+    steps: [
+      {
+        id: 'open_artifacts',
+        instructionKey: 'steps.m5.step1',
+        type: 'interaction',
+        targetId: 'artifacts-tab',
+        trigger: 'click'
+      },
+      {
+        id: 'view_image',
+        instructionKey: 'steps.m5.step2',
+        type: 'interaction',
+        targetId: 'artifact-item',
+        trigger: 'click'
+      }
+    ]
+  },
+  'mission-6': {
+    id: 'mission-6',
+    level: 2,
+    titleKey: 'missions.m6.title',
+    descKey: 'missions.m6.desc',
+    badgeId: 'messenger',
+    xpReward: 100,
+    steps: [
+      {
+        id: 'nav_inbox',
+        instructionKey: 'steps.m6.step1',
+        type: 'interaction',
+        targetId: 'inbox-btn',
+        trigger: 'click'
+      }
+    ]
   }
 };
 

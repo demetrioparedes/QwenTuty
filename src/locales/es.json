@@ -25,6 +25,18 @@
     "m3": {
       "title": "Configuración Segura",
       "desc": "Establece el modo de agente asistido."
+    },
+    "m4": {
+      "title": "Navegador Fantasma",
+      "desc": "Usa la terminal para ordenar al robot visitar una web."
+    },
+    "m5": {
+      "title": "Cazador de Pruebas",
+      "desc": "Encuentra la evidencia de la misión anterior."
+    },
+    "m6": {
+      "title": "Maestro del Inbox",
+      "desc": "Navega por tus conversaciones con los agentes."
     }
   },
   "steps": {
@@ -39,6 +51,16 @@
     "m3": {
       "step1": "Ve a la pestaña de 'Ajustes'.",
       "step2": "Selecciona el modo 'Asistido por Agente' y guarda los cambios."
+    },
+    "m4": {
+      "step1": "Escribe 'visitar google.com' en la terminal."
+    },
+    "m5": {
+      "step1": "Haz clic en la pestaña 'Artefactos'.",
+      "step2": "Abre la captura de pantalla 'google_home.png'."
+    },
+    "m6": {
+      "step1": "Ve al Inbox y selecciona otro chat."
     }
   },
   "ui": {
@@ -64,6 +86,14 @@
     "settings_saved": "Ajustes Guardados",
     "desc_manual": "Tú escribes todo el código.",
     "desc_assisted": "La IA sugiere y tú apruebas.",
-    "desc_auto": "La IA escribe código autónomamente."
+    "desc_auto": "La IA escribe código autónomamente.",
+    "terminal_placeholder": "Escribe un comando...",
+    "cmd_unknown": "Comando desconocido: {{cmd}}",
+    "cmd_processing": "Procesando...",
+    "browser_address": "Barra de Direcciones",
+    "artifacts": "Artefactos",
+    "inbox": "Bandeja de Entrada",
+    "chat_agent": "Agente",
+    "chat_user": "Tú"
   }
 }

@@ -25,6 +25,18 @@
     "m3": {
       "title": "Safe Configuration",
       "desc": "Set the agent mode to assisted."
+    },
+    "m4": {
+      "title": "Ghost Browser",
+      "desc": "Use the terminal to command the robot to visit a website."
+    },
+    "m5": {
+      "title": "Proof Hunter",
+      "desc": "Find the evidence from the previous mission."
+    },
+    "m6": {
+      "title": "Inbox Master",
+      "desc": "Navigate through your conversations with agents."
     }
   },
   "steps": {
@@ -39,6 +51,16 @@
     "m3": {
       "step1": "Go to the 'Settings' tab.",
       "step2": "Select 'Assisted' mode and save changes."
+    },
+    "m4": {
+      "step1": "Type 'visit google.com' in the terminal."
+    },
+    "m5": {
+      "step1": "Click on the 'Artifacts' tab.",
+      "step2": "Open the screenshot 'google_home.png'."
+    },
+    "m6": {
+      "step1": "Go to Inbox and select another chat."
     }
   },
   "ui": {
@@ -64,6 +86,14 @@
     "settings_saved": "Settings Saved",
     "desc_manual": "You write all the code.",
     "desc_assisted": "AI suggests and you approve.",
-    "desc_auto": "AI writes code autonomously."
+    "desc_auto": "AI writes code autonomously.",
+    "terminal_placeholder": "Type a command...",
+    "cmd_unknown": "Unknown command: {{cmd}}",
+    "cmd_processing": "Processing...",
+    "browser_address": "Address Bar",
+    "artifacts": "Artifacts",
+    "inbox": "Inbox",
+    "chat_agent": "Agent",
+    "chat_user": "You"
   }
 }
