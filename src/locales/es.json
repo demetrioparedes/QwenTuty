@@ -1,0 +1,46 @@
+{
+  "app": {
+    "title": "ANTIGRAVITY",
+    "subtitle": "Academia de Jefes Robot",
+    "cadet": "Cadete",
+    "xp": "XP"
+  },
+  "menu": {
+    "mission_control": "Control de Misión",
+    "current_objective": "Objetivo Actual",
+    "start_mission": "Iniciar Misión",
+    "access_terminal": "Acceder Terminal",
+    "settings": "Ajustes",
+    "badges": "Insignias"
+  },
+  "missions": {
+    "m1": {
+      "title": "Hola Mundo",
+      "desc": "Instala el simulador Antigravity y regístrate."
+    },
+    "m2": {
+      "title": "Centro de Mando",
+      "desc": "Crea tu primer espacio de trabajo."
+    },
+    "m3": {
+      "title": "Configuración Segura",
+      "desc": "Establece el modo de agente asistido."
+    }
+  },
+  "steps": {
+    "m1": {
+      "step1": "Haz clic en el botón 'Instalar' para descargar Antigravity.",
+      "step2": "Haz clic en 'Abrir' para iniciar tu aventura."
+    }
+  },
+  "ui": {
+    "install": "Instalar",
+    "open": "Abrir",
+    "loading": "Cargando...",
+    "language": "Idioma",
+    "mission_completed": "¡Misión Completada!",
+    "simulator_title": "Simulador Antigravity",
+    "select_mission": "Selecciona una Misión",
+    "coming_soon": "Próximamente"
+  }
+}

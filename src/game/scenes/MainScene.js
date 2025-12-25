@@ -1,4 +1,5 @@
 import Phaser from 'phaser';
+import i18next from 'i18next';
 
 export default class MainScene extends Phaser.Scene {
   constructor() {
@@ -18,7 +19,8 @@ export default class MainScene extends Phaser.Scene {
         loop: -1
     });
 
-    const text = this.add.text(400, 300, 'Antigravity Robot Boss Academy', {
+    const title = i18next.t('app.subtitle') || 'Robot Boss Academy';
+    const text = this.add.text(400, 300, title, {
         fontSize: '32px',
         fill: '#fff',
         fontFamily: 'Arial'

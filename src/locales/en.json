@@ -1,0 +1,46 @@
+{
+  "app": {
+    "title": "ANTIGRAVITY",
+    "subtitle": "Robot Boss Academy",
+    "cadet": "Cadet",
+    "xp": "XP"
+  },
+  "menu": {
+    "mission_control": "Mission Control",
+    "current_objective": "Current Objective",
+    "start_mission": "Start Mission",
+    "access_terminal": "Access Terminal",
+    "settings": "Settings",
+    "badges": "Badges"
+  },
+  "missions": {
+    "m1": {
+      "title": "Hello World",
+      "desc": "Install the Antigravity simulator and sign in."
+    },
+    "m2": {
+      "title": "Command Center",
+      "desc": "Create your first workspace."
+    },
+    "m3": {
+      "title": "Safe Configuration",
+      "desc": "Set the agent mode to assisted."
+    }
+  },
+  "steps": {
+    "m1": {
+      "step1": "Click the 'Install' button to download Antigravity.",
+      "step2": "Click 'Open' to start your adventure."
+    }
+  },
+  "ui": {
+    "install": "Install",
+    "open": "Open",
+    "loading": "Loading...",
+    "language": "Language",
+    "mission_completed": "Mission Completed!",
+    "simulator_title": "Antigravity Simulator",
+    "select_mission": "Select a Mission",
+    "coming_soon": "Coming Soon"
+  }
+}
