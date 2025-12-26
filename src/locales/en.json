@@ -162,6 +162,10 @@
     "test_passed": "Tests Passed",
     "certificate": "Certificate",
     "congratulations": "Congratulations, Boss!",
-    "download_cert": "Download Certificate"
+    "download_cert": "Download Certificate",
+    "sound_on": "Sound: ON",
+    "sound_off": "Sound: OFF",
+    "voice_on": "Voice: ON",
+    "voice_off": "Voice: OFF"
   }
 }

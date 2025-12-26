@@ -11,6 +11,10 @@ export const useGameStore = create(
         badges: [],
         completedMissions: []
       },
+      settings: {
+        sound: true,
+        voice: true
+      },
 
       // Mission State
       currentMissionId: 'mission-1',
@@ -88,6 +92,10 @@ export const useGameStore = create(
         return mission.steps[currentStepIndex];
       },
 
+      toggleSetting: (key) => set((state) => ({
+        settings: { ...state.settings, [key]: !state.settings[key] }
+      })),
+
       resetProgress: () => set({
         user: { name: 'Cadet', xp: 0, badges: [], completedMissions: [] },
         currentMissionId: 'mission-1',
@@ -100,7 +108,8 @@ export const useGameStore = create(
       storage: createJSONStorage(() => localStorage), // use localStorage
       partialize: (state) => ({
         user: state.user,
-        currentMissionId: state.currentMissionId
+        currentMissionId: state.currentMissionId,
+        settings: state.settings
       }),
     }
   )
