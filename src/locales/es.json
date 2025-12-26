@@ -49,6 +49,22 @@
     "m9": {
       "title": "Mago del Código",
       "desc": "Usa la IA para generar funciones complejas."
+    },
+    "m10": {
+      "title": "Reglas de Oro",
+      "desc": "Define el comportamiento de tus agentes."
+    },
+    "m11": {
+      "title": "Multitarea",
+      "desc": "Gestiona múltiples agentes a la vez."
+    },
+    "m12": {
+      "title": "El Gran Combo",
+      "desc": "Automatiza tus pruebas con un workflow."
+    },
+    "certification": {
+      "title": "Certificación",
+      "desc": "¡Has completado el entrenamiento!"
     }
   },
   "steps": {
@@ -85,6 +101,18 @@
     "m9": {
       "step1": "Usa Cmd+I (o Ctrl+I) en el editor.",
       "step2": "Pide 'Crear función suma'."
+    },
+    "m10": {
+      "step1": "Abre el archivo '.cursorrules'.",
+      "step2": "Añade la regla: 'Siempre responder en español'."
+    },
+    "m11": {
+      "step1": "Inicia una tarea en el Agente 1.",
+      "step2": "Cambia al Agente 2 e inicia otra tarea."
+    },
+    "m12": {
+      "step1": "Arrastra el bloque 'Test' al flujo de trabajo.",
+      "step2": "Ejecuta el flujo."
     }
   },
   "ui": {
@@ -124,6 +152,16 @@
     "add_comment": "Añadir Comentario",
     "fast_mode": "Modo Rápido",
     "slow_mode": "Modo Normal",
-    "ai_placeholder": "Describe qué quieres que haga el código..."
+    "ai_placeholder": "Describe qué quieres que haga el código...",
+    "open_file": "Abrir Archivo",
+    "agent_1": "Agente 1",
+    "agent_2": "Agente 2",
+    "start_task": "Iniciar Tarea",
+    "workflow": "Flujo de Trabajo",
+    "run_workflow": "Ejecutar Flujo",
+    "test_passed": "Pruebas Pasadas",
+    "certificate": "Certificado",
+    "congratulations": "¡Felicidades, Jefe!",
+    "download_cert": "Descargar Certificado"
   }
 }

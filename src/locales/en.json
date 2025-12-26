@@ -49,6 +49,22 @@
     "m9": {
       "title": "Code Wizard",
       "desc": "Use AI to generate complex functions."
+    },
+    "m10": {
+      "title": "Golden Rules",
+      "desc": "Define the behavior of your agents."
+    },
+    "m11": {
+      "title": "Multitasking",
+      "desc": "Manage multiple agents at once."
+    },
+    "m12": {
+      "title": "The Grand Combo",
+      "desc": "Automate your tests with a workflow."
+    },
+    "certification": {
+      "title": "Certification",
+      "desc": "You have completed the training!"
     }
   },
   "steps": {
@@ -85,6 +101,18 @@
     "m9": {
       "step1": "Use Cmd+I (or Ctrl+I) in the editor.",
       "step2": "Ask to 'Create sum function'."
+    },
+    "m10": {
+      "step1": "Open the file '.cursorrules'.",
+      "step2": "Add rule: 'Always answer in Spanish'."
+    },
+    "m11": {
+      "step1": "Start a task in Agent 1.",
+      "step2": "Switch to Agent 2 and start another task."
+    },
+    "m12": {
+      "step1": "Drag 'Test' block to workflow.",
+      "step2": "Run the workflow."
     }
   },
   "ui": {
@@ -124,6 +152,16 @@
     "add_comment": "Add Comment",
     "fast_mode": "Fast Mode",
     "slow_mode": "Normal Mode",
-    "ai_placeholder": "Describe what you want the code to do..."
+    "ai_placeholder": "Describe what you want the code to do...",
+    "open_file": "Open File",
+    "agent_1": "Agent 1",
+    "agent_2": "Agent 2",
+    "start_task": "Start Task",
+    "workflow": "Workflow",
+    "run_workflow": "Run Workflow",
+    "test_passed": "Tests Passed",
+    "certificate": "Certificate",
+    "congratulations": "Congratulations, Boss!",
+    "download_cert": "Download Certificate"
   }
 }

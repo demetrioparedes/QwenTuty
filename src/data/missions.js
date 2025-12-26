@@ -203,6 +203,88 @@ export const MISSIONS = {
         trigger: 'submit'
       }
     ]
+  },
+  'mission-10': {
+    id: 'mission-10',
+    level: 4,
+    titleKey: 'missions.m10.title',
+    descKey: 'missions.m10.desc',
+    badgeId: 'legislator',
+    xpReward: 200,
+    steps: [
+      {
+        id: 'open_rules',
+        instructionKey: 'steps.m10.step1',
+        type: 'interaction',
+        targetId: 'file-explorer',
+        trigger: 'click'
+      },
+      {
+        id: 'add_rule',
+        instructionKey: 'steps.m10.step2',
+        type: 'code',
+        targetId: 'editor',
+        trigger: 'edit',
+        expectedCode: /español|spanish/i
+      }
+    ]
+  },
+  'mission-11': {
+    id: 'mission-11',
+    level: 4,
+    titleKey: 'missions.m11.title',
+    descKey: 'missions.m11.desc',
+    badgeId: 'multiprocessor',
+    xpReward: 200,
+    steps: [
+      {
+        id: 'start_agent1',
+        instructionKey: 'steps.m11.step1',
+        type: 'interaction',
+        targetId: 'agent1-start',
+        trigger: 'click'
+      },
+      {
+        id: 'start_agent2',
+        instructionKey: 'steps.m11.step2',
+        type: 'interaction',
+        targetId: 'agent2-start',
+        trigger: 'click'
+      }
+    ]
+  },
+  'mission-12': {
+    id: 'mission-12',
+    level: 4,
+    titleKey: 'missions.m12.title',
+    descKey: 'missions.m12.desc',
+    badgeId: 'grandmaster',
+    xpReward: 300,
+    steps: [
+      {
+        id: 'add_test',
+        instructionKey: 'steps.m12.step1',
+        type: 'interaction',
+        targetId: 'workflow-canvas',
+        trigger: 'drop' // logic handled in component
+      },
+      {
+        id: 'run_workflow',
+        instructionKey: 'steps.m12.step2',
+        type: 'interaction',
+        targetId: 'run-workflow-btn',
+        trigger: 'click'
+      }
+    ]
+  },
+  'certification': {
+    id: 'certification',
+    level: 5,
+    titleKey: 'missions.certification.title',
+    descKey: 'missions.certification.desc',
+    badgeId: 'certified',
+    xpReward: 0,
+    steps: []
   }
 };
 

@@ -56,6 +56,12 @@ export const useGameStore = create(
                 missionStatus: 'active',
                 currentStepIndex: 0
             });
+        } else if (currentMissionId === 'mission-12') {
+             set({
+                currentMissionId: 'certification',
+                missionStatus: 'active', // or completed
+                currentStepIndex: 0
+            });
         }
       },
 

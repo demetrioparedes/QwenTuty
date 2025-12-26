@@ -10,6 +10,10 @@ import Mission6View from './missions/Mission6View';
 import Mission7View from './missions/Mission7View';
 import Mission8View from './missions/Mission8View';
 import Mission9View from './missions/Mission9View';
+import Mission10View from './missions/Mission10View';
+import Mission11View from './missions/Mission11View';
+import Mission12View from './missions/Mission12View';
+import CertificationView from './CertificationView';
 
 const MissionView = () => {
   const { currentMissionId } = useGameStore();
@@ -35,6 +39,14 @@ const MissionView = () => {
         return <Mission8View />;
       case 'mission-9':
         return <Mission9View />;
+      case 'mission-10':
+        return <Mission10View />;
+      case 'mission-11':
+        return <Mission11View />;
+      case 'mission-12':
+        return <Mission12View />;
+      case 'certification':
+        return <CertificationView />;
       default:
         return <div className="text-white text-center p-10">{t('ui.select_mission')}</div>;
     }
