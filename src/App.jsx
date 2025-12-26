@@ -5,6 +5,7 @@ import MissionView from './components/MissionView';
 import { useGameStore } from './stores/useGameStore';
 import { useAudio } from './hooks/useAudio';
 import { MISSIONS } from './data/missions';
+import GameComponent from './components/GameComponent';
 
 function App() {
   const { user, currentMissionId, missionStatus, getCurrentStep, currentStepIndex, startNextMission, settings, toggleSetting } = useGameStore();
@@ -95,6 +96,10 @@ function App() {
         </div>
 
         <aside className="w-80 bg-gray-900/80 p-6 rounded-xl border border-primary backdrop-blur-sm h-fit">
+          <div className="mb-4 h-48 rounded-lg overflow-hidden border border-gray-700 relative">
+             <GameComponent />
+          </div>
+
           <h2 className="text-2xl font-bold text-secondary mb-4">{t('menu.mission_control')}</h2>
 
           {/* Mission Info Card */}

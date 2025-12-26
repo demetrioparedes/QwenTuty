@@ -5,7 +5,7 @@ import MainScene from './scenes/MainScene';
 export const phaserConfig = {
   type: Phaser.AUTO,
   parent: 'phaser-container',
-  backgroundColor: '#1A1D3A',
+  transparent: true,
   width: 800,
   height: 600,
   physics: {
