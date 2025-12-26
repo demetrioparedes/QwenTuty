@@ -4,6 +4,7 @@ import { useTranslation } from 'react-i18next';
 import MissionView from './components/MissionView';
 import { useGameStore } from './stores/useGameStore';
 import { useAudio } from './hooks/useAudio';
+import { MISSIONS } from './data/missions';
 
 function App() {
   const { user, currentMissionId, missionStatus, getCurrentStep, currentStepIndex, startNextMission, settings, toggleSetting } = useGameStore();
@@ -116,6 +117,19 @@ function App() {
                 </div>
             )}
           </div>
+
+          {MISSIONS[currentMissionId]?.videoUrl && (
+             <div className="mb-4">
+                <a
+                    href={MISSIONS[currentMissionId].videoUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-2 text-blue-400 hover:text-blue-300 text-sm border border-blue-900 bg-blue-900/20 p-2 rounded"
+                >
+                    <span>📺</span> {t('ui.watch_tutorial')}
+                </a>
+             </div>
+          )}
 
           <div className="space-y-4">
             {missionStatus === 'completed' ? (

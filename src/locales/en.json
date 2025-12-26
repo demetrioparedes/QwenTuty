@@ -166,6 +166,7 @@
     "sound_on": "Sound: ON",
     "sound_off": "Sound: OFF",
     "voice_on": "Voice: ON",
-    "voice_off": "Voice: OFF"
+    "voice_off": "Voice: OFF",
+    "watch_tutorial": "Watch Tutorial"
   }
 }

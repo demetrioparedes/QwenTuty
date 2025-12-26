@@ -6,17 +6,18 @@ export const MISSIONS = {
     descKey: 'missions.m1.desc',
     badgeId: 'pilot',
     xpReward: 50,
+    videoUrl: 'https://youtu.be/q2xmNzOzpQw',
     steps: [
       {
         id: 'install_app',
-        instructionKey: 'steps.m1.step1', // "Install Antigravity"
+        instructionKey: 'steps.m1.step1',
         type: 'interaction',
         targetId: 'install-btn',
         trigger: 'click'
       },
       {
         id: 'open_app',
-        instructionKey: 'steps.m1.step2', // "Open the app"
+        instructionKey: 'steps.m1.step2',
         type: 'interaction',
         targetId: 'open-btn',
         trigger: 'click'
@@ -30,17 +31,18 @@ export const MISSIONS = {
     descKey: 'missions.m2.desc',
     badgeId: 'organizer',
     xpReward: 75,
+    videoUrl: 'https://youtu.be/q2xmNzOzpQw',
     steps: [
       {
         id: 'new_workspace',
-        instructionKey: 'steps.m2.step1', // "Click New Workspace"
+        instructionKey: 'steps.m2.step1',
         type: 'interaction',
         targetId: 'new-workspace-btn',
         trigger: 'click'
       },
       {
         id: 'enter_name',
-        instructionKey: 'steps.m2.step2', // "Enter name and create"
+        instructionKey: 'steps.m2.step2',
         type: 'form',
         targetId: 'create-btn',
         trigger: 'submit'
@@ -54,17 +56,18 @@ export const MISSIONS = {
     descKey: 'missions.m3.desc',
     badgeId: 'guardian',
     xpReward: 75,
+    videoUrl: 'https://youtu.be/q2xmNzOzpQw',
     steps: [
       {
         id: 'open_settings',
-        instructionKey: 'steps.m3.step1', // "Go to Settings"
+        instructionKey: 'steps.m3.step1',
         type: 'interaction',
         targetId: 'settings-tab',
         trigger: 'click'
       },
       {
         id: 'select_mode',
-        instructionKey: 'steps.m3.step2', // "Select Assisted Mode"
+        instructionKey: 'steps.m3.step2',
         type: 'form',
         targetId: 'save-settings',
         trigger: 'click'
@@ -78,14 +81,15 @@ export const MISSIONS = {
     descKey: 'missions.m4.desc',
     badgeId: 'navigator',
     xpReward: 100,
+    videoUrl: 'https://youtu.be/BHkubCCCZtY',
     steps: [
       {
         id: 'visit_url',
-        instructionKey: 'steps.m4.step1', // "Type visit google.com"
+        instructionKey: 'steps.m4.step1',
         type: 'terminal',
         targetId: 'terminal-input',
         trigger: 'command',
-        expectedCommand: /visita?r?\s+google\.com/i // Regex for flexibility
+        expectedCommand: /visita?r?\s+google\.com/i
       }
     ]
   },
@@ -96,6 +100,7 @@ export const MISSIONS = {
     descKey: 'missions.m5.desc',
     badgeId: 'detective',
     xpReward: 100,
+    videoUrl: 'https://youtu.be/BHkubCCCZtY',
     steps: [
       {
         id: 'open_artifacts',
@@ -120,6 +125,7 @@ export const MISSIONS = {
     descKey: 'missions.m6.desc',
     badgeId: 'messenger',
     xpReward: 100,
+    videoUrl: 'https://youtu.be/BHkubCCCZtY',
     steps: [
       {
         id: 'nav_inbox',
@@ -137,6 +143,7 @@ export const MISSIONS = {
     descKey: 'missions.m7.desc',
     badgeId: 'architect',
     xpReward: 150,
+    videoUrl: 'https://youtu.be/9o35pSNLJEQ',
     steps: [
       {
         id: 'request_todo',
@@ -151,7 +158,7 @@ export const MISSIONS = {
         instructionKey: 'steps.m7.step2',
         type: 'interaction',
         targetId: 'plan-document',
-        trigger: 'click' // Simplified for logic, UI will handle comment input
+        trigger: 'click'
       }
     ]
   },
@@ -162,6 +169,7 @@ export const MISSIONS = {
     descKey: 'missions.m8.desc',
     badgeId: 'speedster',
     xpReward: 150,
+    videoUrl: 'https://youtu.be/9o35pSNLJEQ',
     steps: [
       {
         id: 'toggle_fast',
@@ -176,7 +184,7 @@ export const MISSIONS = {
         type: 'code',
         targetId: 'editor',
         trigger: 'edit',
-        expectedCode: /puntos/ // Check if 'puntos' exists in code
+        expectedCode: /puntos/
       }
     ]
   },
@@ -187,13 +195,14 @@ export const MISSIONS = {
     descKey: 'missions.m9.desc',
     badgeId: 'sorcerer',
     xpReward: 150,
+    videoUrl: 'https://youtu.be/9o35pSNLJEQ',
     steps: [
       {
         id: 'trigger_ai',
         instructionKey: 'steps.m9.step1',
         type: 'interaction',
         targetId: 'ai-trigger',
-        trigger: 'click' // Or shortcut
+        trigger: 'click'
       },
       {
         id: 'gen_code',
@@ -211,6 +220,7 @@ export const MISSIONS = {
     descKey: 'missions.m10.desc',
     badgeId: 'legislator',
     xpReward: 200,
+    videoUrl: 'https://youtu.be/ZZS47MZujSk',
     steps: [
       {
         id: 'open_rules',
@@ -236,6 +246,7 @@ export const MISSIONS = {
     descKey: 'missions.m11.desc',
     badgeId: 'multiprocessor',
     xpReward: 200,
+    videoUrl: 'https://youtu.be/ZZS47MZujSk',
     steps: [
       {
         id: 'start_agent1',
@@ -260,13 +271,14 @@ export const MISSIONS = {
     descKey: 'missions.m12.desc',
     badgeId: 'grandmaster',
     xpReward: 300,
+    videoUrl: 'https://youtu.be/ZZS47MZujSk',
     steps: [
       {
         id: 'add_test',
         instructionKey: 'steps.m12.step1',
         type: 'interaction',
         targetId: 'workflow-canvas',
-        trigger: 'drop' // logic handled in component
+        trigger: 'drop'
       },
       {
         id: 'run_workflow',
