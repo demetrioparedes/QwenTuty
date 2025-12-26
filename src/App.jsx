@@ -11,6 +11,13 @@ function App() {
   const { t, i18n } = useTranslation();
   const { playSfx, speak } = useAudio();
 
+  const getSpanishVideoUrl = (url) => {
+    if (!url) return '';
+    const separator = url.includes('?') ? '&' : '?';
+    // hl=es (Interface Spanish), cc_lang_pref=es (Captions Spanish), cc_load_policy=1 (Force Captions)
+    return `${url}${separator}hl=es&cc_lang_pref=es&cc_load_policy=1`;
+  };
+
   const toggleLanguage = () => {
     const newLang = i18n.language === 'es' ? 'en' : 'es';
     i18n.changeLanguage(newLang);
@@ -121,7 +128,7 @@ function App() {
           {MISSIONS[currentMissionId]?.videoUrl && (
              <div className="mb-4">
                 <a
-                    href={MISSIONS[currentMissionId].videoUrl}
+                    href={getSpanishVideoUrl(MISSIONS[currentMissionId].videoUrl)}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-2 text-blue-400 hover:text-blue-300 text-sm border border-blue-900 bg-blue-900/20 p-2 rounded"
