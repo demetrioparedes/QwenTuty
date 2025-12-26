@@ -129,6 +129,80 @@ export const MISSIONS = {
         trigger: 'click'
       }
     ]
+  },
+  'mission-7': {
+    id: 'mission-7',
+    level: 3,
+    titleKey: 'missions.m7.title',
+    descKey: 'missions.m7.desc',
+    badgeId: 'architect',
+    xpReward: 150,
+    steps: [
+      {
+        id: 'request_todo',
+        instructionKey: 'steps.m7.step1',
+        type: 'terminal',
+        targetId: 'chat-input',
+        trigger: 'command',
+        expectedCommand: /lista?|todo|tareas/i
+      },
+      {
+        id: 'add_comment',
+        instructionKey: 'steps.m7.step2',
+        type: 'interaction',
+        targetId: 'plan-document',
+        trigger: 'click' // Simplified for logic, UI will handle comment input
+      }
+    ]
+  },
+  'mission-8': {
+    id: 'mission-8',
+    level: 3,
+    titleKey: 'missions.m8.title',
+    descKey: 'missions.m8.desc',
+    badgeId: 'speedster',
+    xpReward: 150,
+    steps: [
+      {
+        id: 'toggle_fast',
+        instructionKey: 'steps.m8.step1',
+        type: 'interaction',
+        targetId: 'fast-mode-toggle',
+        trigger: 'click'
+      },
+      {
+        id: 'rename_var',
+        instructionKey: 'steps.m8.step2',
+        type: 'code',
+        targetId: 'editor',
+        trigger: 'edit',
+        expectedCode: /puntos/ // Check if 'puntos' exists in code
+      }
+    ]
+  },
+  'mission-9': {
+    id: 'mission-9',
+    level: 3,
+    titleKey: 'missions.m9.title',
+    descKey: 'missions.m9.desc',
+    badgeId: 'sorcerer',
+    xpReward: 150,
+    steps: [
+      {
+        id: 'trigger_ai',
+        instructionKey: 'steps.m9.step1',
+        type: 'interaction',
+        targetId: 'ai-trigger',
+        trigger: 'click' // Or shortcut
+      },
+      {
+        id: 'gen_code',
+        instructionKey: 'steps.m9.step2',
+        type: 'interaction',
+        targetId: 'ai-input',
+        trigger: 'submit'
+      }
+    ]
   }
 };
 

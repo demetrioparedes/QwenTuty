@@ -37,6 +37,18 @@
     "m6": {
       "title": "Inbox Master",
       "desc": "Navigate through your conversations with agents."
+    },
+    "m7": {
+      "title": "Action Plan",
+      "desc": "Collaborate with the agent on the implementation plan."
+    },
+    "m8": {
+      "title": "Fast Mode",
+      "desc": "Make quick code changes without much chatter."
+    },
+    "m9": {
+      "title": "Code Wizard",
+      "desc": "Use AI to generate complex functions."
     }
   },
   "steps": {
@@ -61,6 +73,18 @@
     },
     "m6": {
       "step1": "Go to Inbox and select another chat."
+    },
+    "m7": {
+      "step1": "Request a 'Todo List' in the chat.",
+      "step2": "Click on the plan and comment 'Change color'."
+    },
+    "m8": {
+      "step1": "Activate 'Fast Mode'.",
+      "step2": "Rename variable 'score' to 'puntos'."
+    },
+    "m9": {
+      "step1": "Use Cmd+I (or Ctrl+I) in the editor.",
+      "step2": "Ask to 'Create sum function'."
     }
   },
   "ui": {
@@ -94,6 +118,12 @@
     "artifacts": "Artifacts",
     "inbox": "Inbox",
     "chat_agent": "Agent",
-    "chat_user": "You"
+    "chat_user": "You",
+    "editor_loading": "Loading editor...",
+    "plan": "Implementation Plan",
+    "add_comment": "Add Comment",
+    "fast_mode": "Fast Mode",
+    "slow_mode": "Normal Mode",
+    "ai_placeholder": "Describe what you want the code to do..."
   }
 }

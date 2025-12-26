@@ -37,6 +37,18 @@
     "m6": {
       "title": "Maestro del Inbox",
       "desc": "Navega por tus conversaciones con los agentes."
+    },
+    "m7": {
+      "title": "Plan de Acción",
+      "desc": "Colabora con el agente en el plan de implementación."
+    },
+    "m8": {
+      "title": "Modo Rápido",
+      "desc": "Haz cambios rápidos en el código sin mucha charla."
+    },
+    "m9": {
+      "title": "Mago del Código",
+      "desc": "Usa la IA para generar funciones complejas."
     }
   },
   "steps": {
@@ -61,6 +73,18 @@
     },
     "m6": {
       "step1": "Ve al Inbox y selecciona otro chat."
+    },
+    "m7": {
+      "step1": "Solicita una 'Lista de Tareas' (Todo List) en el chat.",
+      "step2": "Haz clic en el plan y comenta 'Cambiar color'."
+    },
+    "m8": {
+      "step1": "Activa el 'Modo Rápido' (Fast Mode).",
+      "step2": "Renombra la variable 'score' a 'puntos'."
+    },
+    "m9": {
+      "step1": "Usa Cmd+I (o Ctrl+I) en el editor.",
+      "step2": "Pide 'Crear función suma'."
     }
   },
   "ui": {
@@ -94,6 +118,12 @@
     "artifacts": "Artefactos",
     "inbox": "Bandeja de Entrada",
     "chat_agent": "Agente",
-    "chat_user": "Tú"
+    "chat_user": "Tú",
+    "editor_loading": "Cargando editor...",
+    "plan": "Plan de Implementación",
+    "add_comment": "Añadir Comentario",
+    "fast_mode": "Modo Rápido",
+    "slow_mode": "Modo Normal",
+    "ai_placeholder": "Describe qué quieres que haga el código..."
   }
 }

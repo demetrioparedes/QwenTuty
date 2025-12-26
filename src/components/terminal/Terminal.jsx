@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { useTranslation } from 'react-i18next';
 
-const Terminal = ({ onCommand, history = [], className = '' }) => {
+const Terminal = ({ onCommand, history = [], className = '', ...props }) => {
   const { t } = useTranslation();
   const [input, setInput] = useState('');
   const [lines, setLines] = useState(history);
@@ -35,7 +35,7 @@ const Terminal = ({ onCommand, history = [], className = '' }) => {
   };
 
   return (
-    <div className={`bg-gray-900 font-mono text-sm p-4 overflow-hidden flex flex-col ${className}`}>
+    <div className={`bg-gray-900 font-mono text-sm p-4 overflow-hidden flex flex-col ${className}`} {...props}>
       <div className="flex-1 overflow-y-auto space-y-2 mb-2 custom-scrollbar">
         {lines.map((line, i) => (
           <div key={i} className={`${line.type === 'input' ? 'text-green-400' : 'text-gray-300'}`}>
