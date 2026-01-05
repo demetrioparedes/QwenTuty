@@ -1,0 +1,172 @@
+{
+  "app": {
+    "title": "ANTIGRAVITY",
+    "subtitle": "Robot Boss Academy",
+    "cadet": "Cadet",
+    "xp": "XP"
+  },
+  "menu": {
+    "mission_control": "Mission Control",
+    "current_objective": "Current Objective",
+    "start_mission": "Start Mission",
+    "access_terminal": "Access Terminal",
+    "settings": "Settings",
+    "badges": "Badges"
+  },
+  "missions": {
+    "m1": {
+      "title": "Hello World",
+      "desc": "Install the Antigravity simulator and sign in."
+    },
+    "m2": {
+      "title": "Command Center",
+      "desc": "Create your first workspace."
+    },
+    "m3": {
+      "title": "Safe Configuration",
+      "desc": "Set the agent mode to assisted."
+    },
+    "m4": {
+      "title": "Ghost Browser",
+      "desc": "Use the terminal to command the robot to visit a website."
+    },
+    "m5": {
+      "title": "Proof Hunter",
+      "desc": "Find the evidence from the previous mission."
+    },
+    "m6": {
+      "title": "Inbox Master",
+      "desc": "Navigate through your conversations with agents."
+    },
+    "m7": {
+      "title": "Action Plan",
+      "desc": "Collaborate with the agent on the implementation plan."
+    },
+    "m8": {
+      "title": "Fast Mode",
+      "desc": "Make quick code changes without much chatter."
+    },
+    "m9": {
+      "title": "Code Wizard",
+      "desc": "Use AI to generate complex functions."
+    },
+    "m10": {
+      "title": "Golden Rules",
+      "desc": "Define the behavior of your agents."
+    },
+    "m11": {
+      "title": "Multitasking",
+      "desc": "Manage multiple agents at once."
+    },
+    "m12": {
+      "title": "The Grand Combo",
+      "desc": "Automate your tests with a workflow."
+    },
+    "certification": {
+      "title": "Certification",
+      "desc": "You have completed the training!"
+    }
+  },
+  "steps": {
+    "m1": {
+      "step1": "Click the 'Install' button to download Antigravity.",
+      "step2": "Click 'Open' to start your adventure."
+    },
+    "m2": {
+      "step1": "Click 'New Workspace' to start.",
+      "step2": "Type a project name (e.g. 'MarsBase') and click 'Create'."
+    },
+    "m3": {
+      "step1": "Go to the 'Settings' tab.",
+      "step2": "Select 'Assisted' mode and save changes."
+    },
+    "m4": {
+      "step1": "Type 'visit google.com' in the terminal."
+    },
+    "m5": {
+      "step1": "Click on the 'Artifacts' tab.",
+      "step2": "Open the screenshot 'google_home.png'."
+    },
+    "m6": {
+      "step1": "Go to Inbox and select another chat."
+    },
+    "m7": {
+      "step1": "Request a 'Todo List' in the chat.",
+      "step2": "Click on the plan and comment 'Change color'."
+    },
+    "m8": {
+      "step1": "Activate 'Fast Mode'.",
+      "step2": "Rename variable 'score' to 'puntos'."
+    },
+    "m9": {
+      "step1": "Use Cmd+I (or Ctrl+I) in the editor.",
+      "step2": "Ask to 'Create sum function'."
+    },
+    "m10": {
+      "step1": "Open the file '.cursorrules'.",
+      "step2": "Add rule: 'Always answer in Spanish'."
+    },
+    "m11": {
+      "step1": "Start a task in Agent 1.",
+      "step2": "Switch to Agent 2 and start another task."
+    },
+    "m12": {
+      "step1": "Drag 'Test' block to workflow.",
+      "step2": "Run the workflow."
+    }
+  },
+  "ui": {
+    "install": "Install",
+    "open": "Open",
+    "loading": "Loading...",
+    "language": "Language",
+    "mission_completed": "Mission Completed!",
+    "simulator_title": "Antigravity Simulator",
+    "select_mission": "Select a Mission",
+    "coming_soon": "Coming Soon",
+    "new_workspace": "New Workspace",
+    "workspace_name": "Workspace Name",
+    "create": "Create",
+    "cancel": "Cancel",
+    "my_workspaces": "My Projects",
+    "next_mission": "Next Mission",
+    "agent_mode": "Agent Mode",
+    "mode_manual": "Manual",
+    "mode_assisted": "Assisted",
+    "mode_auto": "Automatic",
+    "save_settings": "Save Settings",
+    "settings_saved": "Settings Saved",
+    "desc_manual": "You write all the code.",
+    "desc_assisted": "AI suggests and you approve.",
+    "desc_auto": "AI writes code autonomously.",
+    "terminal_placeholder": "Type a command...",
+    "cmd_unknown": "Unknown command: {{cmd}}",
+    "cmd_processing": "Processing...",
+    "browser_address": "Address Bar",
+    "artifacts": "Artifacts",
+    "inbox": "Inbox",
+    "chat_agent": "Agent",
+    "chat_user": "You",
+    "editor_loading": "Loading editor...",
+    "plan": "Implementation Plan",
+    "add_comment": "Add Comment",
+    "fast_mode": "Fast Mode",
+    "slow_mode": "Normal Mode",
+    "ai_placeholder": "Describe what you want the code to do...",
+    "open_file": "Open File",
+    "agent_1": "Agent 1",
+    "agent_2": "Agent 2",
+    "start_task": "Start Task",
+    "workflow": "Workflow",
+    "run_workflow": "Run Workflow",
+    "test_passed": "Tests Passed",
+    "certificate": "Certificate",
+    "congratulations": "Congratulations, Boss!",
+    "download_cert": "Download Certificate",
+    "sound_on": "Sound: ON",
+    "sound_off": "Sound: OFF",
+    "voice_on": "Voice: ON",
+    "voice_off": "Voice: OFF",
+    "watch_tutorial": "Watch Tutorial"
+  }
+}

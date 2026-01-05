@@ -1,0 +1,172 @@
+{
+  "app": {
+    "title": "ANTIGRAVITY",
+    "subtitle": "Academia de Jefes Robot",
+    "cadet": "Cadete",
+    "xp": "XP"
+  },
+  "menu": {
+    "mission_control": "Control de Misión",
+    "current_objective": "Objetivo Actual",
+    "start_mission": "Iniciar Misión",
+    "access_terminal": "Acceder Terminal",
+    "settings": "Ajustes",
+    "badges": "Insignias"
+  },
+  "missions": {
+    "m1": {
+      "title": "Hola Mundo",
+      "desc": "Instala el simulador Antigravity y regístrate."
+    },
+    "m2": {
+      "title": "Centro de Mando",
+      "desc": "Crea tu primer espacio de trabajo."
+    },
+    "m3": {
+      "title": "Configuración Segura",
+      "desc": "Establece el modo de agente asistido."
+    },
+    "m4": {
+      "title": "Navegador Fantasma",
+      "desc": "Usa la terminal para ordenar al robot visitar una web."
+    },
+    "m5": {
+      "title": "Cazador de Pruebas",
+      "desc": "Encuentra la evidencia de la misión anterior."
+    },
+    "m6": {
+      "title": "Maestro del Inbox",
+      "desc": "Navega por tus conversaciones con los agentes."
+    },
+    "m7": {
+      "title": "Plan de Acción",
+      "desc": "Colabora con el agente en el plan de implementación."
+    },
+    "m8": {
+      "title": "Modo Rápido",
+      "desc": "Haz cambios rápidos en el código sin mucha charla."
+    },
+    "m9": {
+      "title": "Mago del Código",
+      "desc": "Usa la IA para generar funciones complejas."
+    },
+    "m10": {
+      "title": "Reglas de Oro",
+      "desc": "Define el comportamiento de tus agentes."
+    },
+    "m11": {
+      "title": "Multitarea",
+      "desc": "Gestiona múltiples agentes a la vez."
+    },
+    "m12": {
+      "title": "El Gran Combo",
+      "desc": "Automatiza tus pruebas con un workflow."
+    },
+    "certification": {
+      "title": "Certificación",
+      "desc": "¡Has completado el entrenamiento!"
+    }
+  },
+  "steps": {
+    "m1": {
+      "step1": "Haz clic en el botón 'Instalar' para descargar Antigravity.",
+      "step2": "Haz clic en 'Abrir' para iniciar tu aventura."
+    },
+    "m2": {
+      "step1": "Haz clic en 'Nuevo Espacio de Trabajo' para comenzar.",
+      "step2": "Escribe un nombre para tu proyecto (ej. 'BaseMarte') y haz clic en 'Crear'."
+    },
+    "m3": {
+      "step1": "Ve a la pestaña de 'Ajustes'.",
+      "step2": "Selecciona el modo 'Asistido por Agente' y guarda los cambios."
+    },
+    "m4": {
+      "step1": "Escribe 'visitar google.com' en la terminal."
+    },
+    "m5": {
+      "step1": "Haz clic en la pestaña 'Artefactos'.",
+      "step2": "Abre la captura de pantalla 'google_home.png'."
+    },
+    "m6": {
+      "step1": "Ve al Inbox y selecciona otro chat."
+    },
+    "m7": {
+      "step1": "Solicita una 'Lista de Tareas' (Todo List) en el chat.",
+      "step2": "Haz clic en el plan y comenta 'Cambiar color'."
+    },
+    "m8": {
+      "step1": "Activa el 'Modo Rápido' (Fast Mode).",
+      "step2": "Renombra la variable 'score' a 'puntos'."
+    },
+    "m9": {
+      "step1": "Usa Cmd+I (o Ctrl+I) en el editor.",
+      "step2": "Pide 'Crear función suma'."
+    },
+    "m10": {
+      "step1": "Abre el archivo '.cursorrules'.",
+      "step2": "Añade la regla: 'Siempre responder en español'."
+    },
+    "m11": {
+      "step1": "Inicia una tarea en el Agente 1.",
+      "step2": "Cambia al Agente 2 e inicia otra tarea."
+    },
+    "m12": {
+      "step1": "Arrastra el bloque 'Test' al flujo de trabajo.",
+      "step2": "Ejecuta el flujo."
+    }
+  },
+  "ui": {
+    "install": "Instalar",
+    "open": "Abrir",
+    "loading": "Cargando...",
+    "language": "Idioma",
+    "mission_completed": "¡Misión Completada!",
+    "simulator_title": "Simulador Antigravity",
+    "select_mission": "Selecciona una Misión",
+    "coming_soon": "Próximamente",
+    "new_workspace": "Nuevo Espacio de Trabajo",
+    "workspace_name": "Nombre del Espacio de Trabajo",
+    "create": "Crear",
+    "cancel": "Cancelar",
+    "my_workspaces": "Mis Proyectos",
+    "next_mission": "Siguiente Misión",
+    "agent_mode": "Modo de Agente",
+    "mode_manual": "Manual",
+    "mode_assisted": "Asistido",
+    "mode_auto": "Automático",
+    "save_settings": "Guardar Ajustes",
+    "settings_saved": "Ajustes Guardados",
+    "desc_manual": "Tú escribes todo el código.",
+    "desc_assisted": "La IA sugiere y tú apruebas.",
+    "desc_auto": "La IA escribe código autónomamente.",
+    "terminal_placeholder": "Escribe un comando...",
+    "cmd_unknown": "Comando desconocido: {{cmd}}",
+    "cmd_processing": "Procesando...",
+    "browser_address": "Barra de Direcciones",
+    "artifacts": "Artefactos",
+    "inbox": "Bandeja de Entrada",
+    "chat_agent": "Agente",
+    "chat_user": "Tú",
+    "editor_loading": "Cargando editor...",
+    "plan": "Plan de Implementación",
+    "add_comment": "Añadir Comentario",
+    "fast_mode": "Modo Rápido",
+    "slow_mode": "Modo Normal",
+    "ai_placeholder": "Describe qué quieres que haga el código...",
+    "open_file": "Abrir Archivo",
+    "agent_1": "Agente 1",
+    "agent_2": "Agente 2",
+    "start_task": "Iniciar Tarea",
+    "workflow": "Flujo de Trabajo",
+    "run_workflow": "Ejecutar Flujo",
+    "test_passed": "Pruebas Pasadas",
+    "certificate": "Certificado",
+    "congratulations": "¡Felicidades, Jefe!",
+    "download_cert": "Descargar Certificado",
+    "sound_on": "Sonido: ON",
+    "sound_off": "Sonido: OFF",
+    "voice_on": "Voz: ON",
+    "voice_off": "Voz: OFF",
+    "watch_tutorial": "Ver Tutorial (Español)"
+  }
+}
